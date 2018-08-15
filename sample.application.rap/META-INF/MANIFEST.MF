@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RAP Application
+Bundle-SymbolicName: sample.application.rap;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: sample.application.rap
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.rap.rwt;bundle-version="[3.0.0,4.0.0)",
+ org.eclipse.rap.jface;bundle-version="3.5.0"
+Service-Component: OSGI-INF/contribution.xml
+Export-Package: sample.application.rap
+Bundle-ActivationPolicy: lazy
