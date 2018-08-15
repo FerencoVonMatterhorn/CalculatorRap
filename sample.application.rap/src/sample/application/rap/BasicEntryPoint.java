@@ -52,6 +52,12 @@ public class BasicEntryPoint implements EntryPoint {
 
 		dieAusgabe = new Text(layer0, SWT.FILL | SWT.BORDER);
 		dieAusgabe.setEditable(false);
+		Button derButton4 = new Button(layer0, SWT.BORDER);
+		derButton4.setText("C");
+		derButton4.addListener(SWT.Selection, (event) -> {
+			dieAusgabe.setText("");
+		});
+		
 
 		erstelleButtons(layer1);
 
